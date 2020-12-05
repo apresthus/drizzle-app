@@ -1,0 +1,12 @@
+body {
+  margin: 0 auto;
+}
+
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(159, 217, 247, 1) 100%;
+}
