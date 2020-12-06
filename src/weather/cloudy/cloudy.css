@@ -4,9 +4,6 @@
   height: 100vh;
 
   overflow: hidden;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
 }
 
 .container .clouds {
@@ -18,19 +15,17 @@
   overflow: hidden;
   pointer-events: none;
   --i: 1;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
 }
 .clouds img {
   position: absolute;
-  bottom: 0;
+  bottom: 0%;
   max-width: 100%;
   animation: animate calc(3s * var(--i)) linear infinite;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
 }
+
 @keyframes animate {
   0% {
     opacity: 0%;

@@ -2,11 +2,18 @@
   position: absolute;
   top: 10%;
 }
-button {
-  margin-left: 1em;
+.searchField {
+  width: 100%;
+  line-height: 2em;
+  border: none;
+  margin-bottom: 1em;
+}
+.searchButton {
+  position: relative;
+  margin: "0 auto";
 }
 h1 {
   text-align: center;
   font-family: "Open Sans";
-  font-weight: 300;
+  font-weight: 500;
 }
