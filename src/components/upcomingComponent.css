@@ -1,10 +1,9 @@
 .upcomingInfo {
   word-wrap: normal;
   text-align: center;
-  color: black;
+  color: #24252b;
   font-weight: bold;
   z-index: 55;
-  left: 2em;
 }
 
 .degree {

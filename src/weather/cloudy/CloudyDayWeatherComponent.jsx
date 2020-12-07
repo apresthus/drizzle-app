@@ -7,6 +7,7 @@ import cloud4 from "./cloud4.png"
 import cloud5 from "./cloud5.png"
 import UpcomingComponent from '../../components/UpcomingComponent';
 
+
 ///////////////////////////
 /// Based on https://www.youtube.com/watch?v=4p3YDQLJmSs&t=235s
 ///////////////////////////

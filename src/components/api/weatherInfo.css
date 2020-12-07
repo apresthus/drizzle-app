@@ -11,7 +11,7 @@
   font-size: 6rem;
   font-family: "open Sans";
 }
-.dateTime {
+.subInfo {
   display: flex;
   justify-content: space-evenly;
   font-size: large;
