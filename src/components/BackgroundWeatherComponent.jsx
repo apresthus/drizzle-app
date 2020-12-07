@@ -1,5 +1,5 @@
 import React from 'react'
-import CloudyDayWeatherComponent from "./CloudyDayWeatherComponent"
+import CloudyDayWeatherComponent from "../weather/cloudy/CloudyDayWeatherComponent"
 
 
 export default function BackgroundWeatherComponent(props) {

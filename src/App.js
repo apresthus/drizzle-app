@@ -3,7 +3,7 @@ import './App.css';
 import AppBar from './components/AppBar';
 import BackgroundWeatherComponent from './components/BackgroundWeatherComponent';
 import SearchComponent from './components/SearchComponent';
-import WeatherInfoComponent from './components/WeatherInfoComponent';
+import WeatherInfoComponent from './components//api/WeatherInfoComponent';
 
 function App() {
 
@@ -15,10 +15,8 @@ function App() {
     <div className="background">
    
       <BackgroundWeatherComponent />
-      <AppBar />
-  <WeatherInfoComponent />
-      <SearchComponent />
-    
+      <WeatherInfoComponent location="Parma" unit="F" />
+     
     </div>
   );
 }

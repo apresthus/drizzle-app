@@ -1,0 +1,21 @@
+.weatherInfo {
+  position: absolute;
+  word-wrap: normal;
+  color: white;
+}
+.locName {
+  font-size: 5rem;
+  font-family: "open Sans";
+}
+.degrees {
+  font-size: 6rem;
+  font-family: "open Sans";
+}
+.dateTime {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: large;
+}
+.weatherType {
+  text-align: center;
+}

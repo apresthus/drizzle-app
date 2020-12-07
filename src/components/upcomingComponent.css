@@ -1,0 +1,19 @@
+.upcomingInfo {
+  word-wrap: normal;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  z-index: 55;
+  left: 2em;
+}
+
+.degree {
+  font-weight: bold;
+}
+
+.upcomingWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-direction: row;
+}

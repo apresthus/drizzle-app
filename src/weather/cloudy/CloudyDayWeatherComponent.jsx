@@ -1,10 +1,11 @@
 import React from 'react'
-import "../weather/cloudy/cloudy.css";
-import cloud1 from "../weather/cloudy/cloud1.png"
-import cloud2 from "../weather/cloudy/cloud2.png"
-import cloud3 from "../weather/cloudy/cloud3.png"
-import cloud4 from "../weather/cloudy/cloud4.png"
-import cloud5 from "../weather/cloudy/cloud5.png"
+import "./cloudy.css";
+import cloud1 from "./cloud1.png"
+import cloud2 from "./cloud2.png"
+import cloud3 from "./cloud3.png"
+import cloud4 from "./cloud4.png"
+import cloud5 from "./cloud5.png"
+import UpcomingComponent from '../../components/UpcomingComponent';
 
 ///////////////////////////
 /// Based on https://www.youtube.com/watch?v=4p3YDQLJmSs&t=235s
@@ -24,6 +25,7 @@ export default function CloudyDayWeatherComponent(props) {
     var style10 = { "--i": 6 }
     return (
         <div className="container clouds">
+        <div className="futureWeather"><UpcomingComponent /></div>
        <img style={style1} src={cloud1} alt="white cloud used to simulate weather conditions when cloudy."/>
        <img style={style2} src={cloud2} alt="white cloud used to simulate weather conditions when cloudy."/>
        <img style={style3} src={cloud3} alt="white cloud used to simulate weather conditions when cloudy."/>
